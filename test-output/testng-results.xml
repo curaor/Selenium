@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24986" started-at="2017-03-07T12:03:21Z" finished-at="2017-03-07T12:03:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24986" started-at="2017-03-07T12:03:21Z" finished-at="2017-03-07T12:03:46Z">
+      <class name="ibmnavigator.ReadData">
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:ibmnavigator.ReadData@3da4ca63]" name="setUpDriver" is-config="true" duration-ms="8751" started-at="2017-03-07T20:03:21Z" finished-at="2017-03-07T20:03:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:ibmnavigator.ReadData@3da4ca63]" name="login" duration-ms="10306" started-at="2017-03-07T20:03:30Z" data-provider="login" finished-at="2017-03-07T20:03:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:ibmnavigator.ReadData@3da4ca63]" name="login" duration-ms="2915" started-at="2017-03-07T20:03:40Z" data-provider="login" finished-at="2017-03-07T20:03:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:ibmnavigator.ReadData@3da4ca63]" name="login" duration-ms="2956" started-at="2017-03-07T20:03:43Z" data-provider="login" finished-at="2017-03-07T20:03:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MSODC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[derick01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="pageClose()[pri:0, instance:ibmnavigator.ReadData@3da4ca63]" name="pageClose" is-config="true" duration-ms="18" started-at="2017-03-07T20:03:46Z" finished-at="2017-03-07T20:03:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageClose -->
+      </class> <!-- ibmnavigator.ReadData -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
